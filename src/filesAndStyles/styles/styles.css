@@ -1,0 +1,207 @@
+body {
+    margin: 0;
+    background-color: rgb(232, 232, 228);
+}
+
+.container {
+    border: none;
+    padding: none;
+    margin: none;
+    width: 100%;
+    
+}
+
+.menu-icon {
+    display: flex;
+    /*flex-direction: column; */
+    cursor: pointer;
+    padding: 10px;
+    background-color: transparent;
+    color: black;
+    position: fixed;
+    top: 20px;
+    left: 95%;
+    z-index: 2;
+    order: 1;
+}
+
+.sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: rgba(80, 80, 80, 0.80);
+    overflow-x: hidden;
+    transition: 1s;
+    padding-top: 60px;
+    order: 1;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar li {
+    padding: 15px;
+    font-family: 'Arimo', sans-serif;
+}
+
+.sidebar a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+/* Style the links on hover if needed */
+.sidebar a:hover {
+    text-decoration: underline;
+}
+
+.neurophormism {
+    border-top: 0px;
+    margin-top: 130px;
+    padding: 20px;
+    border-radius: 81px;
+    background: #e0e0e0;
+    
+    box-shadow:  -41px -41px 82px #9b9b9b,
+             41px 41px 82px #ffffff;
+}
+
+.initialFrontPage {
+    display: flex;
+    flex-direction: column;
+    order: 2;
+    
+    
+    border: none;
+    padding: none;
+    margin: none;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+}
+
+.helloWorld {
+
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    
+    width: 100%;
+    /*
+    background-size: cover;  
+    background-position: center; 
+    background-repeat: no-repeat; 
+    */
+}
+
+.helloWorld h1 {
+    color: transparent;
+    font-family: 'Abril Fatface', serif;
+    font-size: 142px;
+    border-top: 0px;
+    margin-top: 0px;
+    padding: 30px;
+    text-align: center;
+    margin: 0;
+    color: white;
+    z-index: 2;
+    position: relative;
+    background-image: url("https://images.unsplash.com/photo-1506104489822-562ca25152fe?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8NGslMjBuYXR1cmV8ZW58MHx8MHx8fDA%3D");
+    background-size: cover;  
+    background-position: center; 
+    background-repeat: no-repeat;
+
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}   
+
+
+.postHelloWorld {
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.postHelloWorld img {
+    width: 25%;
+    height: auto;
+    aspect-ratio: 1 / 1; 
+    border-radius: 20%;
+    padding: 20px;
+    order: 2;
+
+}
+
+.postHelloWorld h1 {
+    color: black;
+    text-align: center;
+    order: 2;
+    margin-left: 10px; /* Adjust margin as needed */
+    font-family: 'Roboto', sans-serif;
+}
+
+.education {
+    display: flex;
+    margin: 40px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    object-fit: cover;
+}
+
+.educationCard {
+    margin: 1%;
+    width: 30%;
+    border-radius: 10%;
+    border: 1px solid black;
+    box-sizing: border-box;
+    background-color: white;
+    min-width: 300px;
+}
+
+.educationTopCard {
+    border-radius: 10%;
+    height: 60%;
+}
+
+.belowImage {
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.educationImage {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10%; 
+}
+
+.nameOfSchool {
+    text-align: center;
+}
+
+.nameOfCourse {
+    text-align: center;
+}
+
+.dates {
+    text-align: center;
+    background-color: #47bcd4;
+    border-radius: 10%;
+    color: white;
+    padding: 10px;
+}
