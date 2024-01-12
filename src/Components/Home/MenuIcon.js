@@ -1,4 +1,5 @@
 import React from "react";
+import SocialMedia from "../Contacts/SocialMedia";
 
 function MenuIcon() {
 
@@ -16,12 +17,15 @@ function MenuIcon() {
         </div>
 
         <div className="sidebar">
-            <ul>
-                <li><a href="/">Home</a></li>
-                <li><a href="/career">Career</a></li>
-                <li><a href="/contacts">Contacts</a></li>
-                <li><a href="/aboutme">About Me</a></li>
+            <ul className = "sidebarUL">
+                <li><a className = "link" href="/">Home</a></li>
+                <li><a className = "link" href="/career">Career</a></li>
+                <li><a className = "link" href="/contacts">Contacts</a></li>
+                <li><a className = "link" href="/aboutme">About Me</a></li>
             </ul>
+
+            <SocialMedia className = "socialsSidebar" />
+
         </div>
     </div>
 }

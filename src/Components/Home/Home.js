@@ -1,6 +1,8 @@
 import React from "react";
 import MenuIcon from "./MenuIcon";
-import myPhoto from "../../filesAndStyles/files/1698160382462.jpg"
+import HelloWorld from "./HelloWorld";
+import PostHelloWorld from "./PostHelloWorld";
+import codeJoke from "../../filesAndStyles/files/Codejoke.png";
 
 function Home() {
   return (
@@ -8,21 +10,9 @@ function Home() {
       <MenuIcon />
 
       <div className="initialFrontPage">
-        <div className="neurophormism">
-          <div className="helloWorld">
-            <h1 id="hello">Hello, World!</h1>
-          </div>
-        </div>
+        <HelloWorld/>
+        <PostHelloWorld/>
 
-        <div className="postHelloWorld">
-          <img src={myPhoto} alt="My photo" />
-          <br />
-          <h1>
-            My name is Eduardo, <br />
-            and I'm a full-stack web developer <br />
-            <span id="jokeHeading">(or trying to be!)</span>
-          </h1>
-        </div>
       </div>
     </div>
   );
