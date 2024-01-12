@@ -10,7 +10,7 @@ function Contacts () {
             <div className = "neurophormismContacts">
             <div className = "transparentDiv">
                 <div className = "faceContacts backContacts">
-                    <h3 className="contactsH3"> If you're interested in hiring me, please contact me through any option below: </h3>
+                    <h3 className="contactsH3"> If you're interested in hiring me, please contact me via any option below: </h3>
                     <div className="contactInfo">
                         <Methods />
                         <SocialMedia />

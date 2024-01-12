@@ -1,6 +1,7 @@
 body {
     margin: 0;
     background-color: rgb(232, 232, 228);
+    width: 100%;
 }
 
 .container {
@@ -20,8 +21,6 @@ body {
     top: 20px;
     left: 95%;
     z-index: 3;
-    
-    
 }
 
 .sidebar {
@@ -97,23 +96,19 @@ body {
                  21px 21px 50px #ffffff;
 }
 
-.initialFrontPage {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-}
 
 .JustTheNeurophormism {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding: 60px;
+    padding-top: 60px;
+    padding-bottom: 60px;
     width: 100%;
     background: linear-gradient(to top, #4fb576 0%, #44c489 30%, #28a9ae 46%, #28a2b7 59%, #4c7788 71%, #6c4f63 86%, #432c39 100%);
+    overflow: hidden;
 }
+
 
 .helloWorld {
     display: flex;
@@ -148,25 +143,82 @@ body {
 
 
 .postHelloWorld {
-    
+    align-self: flex-start;
     display: flex;
-    justify-content: space-evenly;
-    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.codeJoke {
+    font-family: Roboto;
+    font-weight: bolder;
+    margin-right: 4%;
+}
+
+.titleAndPhoto {
+    display: flex;
+    flex-direction: row;
+    margin-left: 4%;
+}
+
+.titleH1 {
+    font-family: 'Oswald', sans-serif;
+    margin: 0;
+    padding: 5px;
+}
+
+.animatedTitleH1 {
+    font-family: 'Open Sans', sans-serif;
+    padding: 5px;
+    height: 40px;
+    margin: 0;
+}
+
+.titleDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 5px;
+    width: 340px;
 }
 
 .myPhoto {
-    width: 30%;
-    height: auto;
-    aspect-ratio: 1 / 1; 
-    border-radius: 20%;
-    padding: 20px;
+    width: 180px;
+    height: 180px;
+    border-radius: 35%;
 }
 
-.postHelloWorld h1 {
-    color: black;
-    text-align: center;
-    margin-left: 10px; /* Adjust margin as needed */
-    font-family: 'Roboto', sans-serif;
+.pCodeJoke {
+    margin: 5px;
+    padding: 0;
+    border: 0;
+}
+
+.constructorIndentation {
+    text-indent: 20px;;
+}
+
+.thisIndentation {
+    text-indent: 40px;
+}
+
+#constructor {
+    color: rgb(200, 0, 0);
+}
+
+#red {
+    color: green;
+}
+
+.this {
+    color: rgb(0, 0, 220);
+}
+
+#Eduardo {
+    color: rgb(255, 191, 0);
 }
 
 .education {
@@ -187,7 +239,6 @@ body {
 .educationCard {
     margin-top: 20px;
     margin-bottom: 30px;
-    width: 30%;
     border-radius: 30px;
     height: 450px;
     
@@ -510,8 +561,6 @@ body {
     color: transparent;
 }
 
-
-
 .center {
     display: flex;
     justify-content: center;
@@ -569,4 +618,3 @@ body {
         z-index: 2;
     }
 }
-
