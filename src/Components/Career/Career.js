@@ -2,6 +2,7 @@ import React from "react";
 import MenuIcon from "../Home/MenuIcon";
 import CareerEducation from "./CareerEducation";
 import CareerPreviousWork from "./CareerPreviousWork";
+import Footer from "../Footer";
 
 function Career () {
 
@@ -18,6 +19,8 @@ function Career () {
             <h1 className = "educationH1"> Previous work </h1>
 
             <CareerPreviousWork />
+
+            <Footer />
         </div>
     )
 

@@ -5,6 +5,7 @@ import Home from "./Home/Home";
 import Career from "./Career/Career";
 import "../filesAndStyles/styles/styles.css";
 import Contacts from './Contacts/Contacts';
+import About from './About/About';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/career" element={<Career />} />
         <Route path="/contacts" element= {<Contacts />} />
+        <Route path="/aboutme" element = {<About/>} />
       </Routes>
     </Router>
   );

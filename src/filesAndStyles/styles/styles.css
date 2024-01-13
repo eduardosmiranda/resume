@@ -149,11 +149,10 @@ body {
     justify-content: space-between;
     width: 100%;
     margin-top: 10px;
-    padding: 10px;
 }
 
 .codeJoke {
-    font-family: Roboto;
+    font-family: 'Open Sans', sans-serif;
     font-weight: bolder;
     margin-right: 4%;
 }
@@ -162,6 +161,7 @@ body {
     display: flex;
     flex-direction: row;
     margin-left: 4%;
+    
 }
 
 .titleH1 {
@@ -555,7 +555,6 @@ body {
     background-size: cover;  
     background-position: center; 
     background-repeat: no-repeat;
-
     background-clip: text;
     -webkit-background-clip: text;
     color: transparent;
@@ -569,8 +568,45 @@ body {
     width: 100%;
 }
 
+.initialFrontPage {
+    min-height: 100vh;
+}
+.footer {
+    background-color: black;
+    height: 400px;
+    width: 100%;
+}
+
+.aboutH1{
+    font-family: 'Playfair Display', serif;
+    color: #202A44;
+    font-size: 50px;
+    margin-top: 10px;
+    margin-left: 10px;
+    
+}
 
 @media (max-width: 850px) {
+
+    .helloWorld h1 {
+        font-size: 90px;
+    }
+
+    .neurophormism {
+        border-radius: 100px;
+    }
+
+    .postHelloWorld {
+        display:flex;
+        flex-direction: column;
+        gap: 40px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .codeJoke {
+        margin-left: 5%;
+    }
 
     .hireMeH1 {
         font-size: 110px;
@@ -617,4 +653,17 @@ body {
         margin-top: 10px;
         z-index: 2;
     }
+}
+
+@media (min-width: 1432px) {
+
+    .postHelloWorld {
+
+        margin-top: 100px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 300px;
+    }
+    
 }
