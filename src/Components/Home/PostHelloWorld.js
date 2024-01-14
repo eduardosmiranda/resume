@@ -1,6 +1,6 @@
 import React from "react";
 import Title from "./Title";
-import MyPhoto from "./myPhoto";
+import MyPhoto from "./MyPhoto";
 import CodeJoke from "./CodeJoke";
 
 function PostHelloWorld () {

@@ -3,7 +3,6 @@ import MenuIcon from "./MenuIcon";
 import HelloWorld from "./HelloWorld";
 import PostHelloWorld from "./PostHelloWorld";
 import Footer from "../Footer";
-import codeJoke from "../../filesAndStyles/files/Codejoke.png";
 
 function Home() {
   return (
