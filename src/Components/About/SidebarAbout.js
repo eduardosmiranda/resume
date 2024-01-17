@@ -1,6 +1,6 @@
 import React from 'react';
 
-const SidebarAbout = () => {
+function SidebarAbout () {
   return (
     <div className="sidebarAbout">
       <a href="#interests" className="rotated-letter linkAbout">Interests</a>
