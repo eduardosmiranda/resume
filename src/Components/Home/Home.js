@@ -2,7 +2,8 @@ import React from "react";
 import MenuIcon from "./MenuIcon";
 import HelloWorld from "./HelloWorld";
 import PostHelloWorld from "./PostHelloWorld";
-import Footer from "../Footer";
+import Footer from "../Footer/Footer";
+
 
 function Home() {
   return (
@@ -16,7 +17,7 @@ function Home() {
         <PostHelloWorld/>
 
       </div>
-    <Footer/>
+      <Footer />
     </div>
   );
 }

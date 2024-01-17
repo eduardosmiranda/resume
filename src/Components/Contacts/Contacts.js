@@ -2,6 +2,7 @@ import React from "react";
 import SocialMedia from "./SocialMedia";
 import MenuIcon from "../Home/MenuIcon";
 import Methods from "./Methods";
+import Footer from "../Footer/Footer";
 
 function Contacts () {
     return <div className="container">
@@ -22,6 +23,7 @@ function Contacts () {
             </div>
             </div>
         </div>
+        <Footer />
     </div>
 }
 

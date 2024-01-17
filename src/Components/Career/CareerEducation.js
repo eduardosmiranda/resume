@@ -48,7 +48,6 @@ function CareerEducation () {
             />
         ))}
     </div>
-
 }
 
 export default CareerEducation;

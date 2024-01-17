@@ -24,7 +24,7 @@ function MenuIcon() {
                 <li><a className = "link" href="/aboutme">About Me</a></li>
             </ul>
 
-            <SocialMedia className = "socialsSidebar" />
+            
 
         </div>
     </div>

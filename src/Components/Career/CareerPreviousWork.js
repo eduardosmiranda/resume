@@ -8,7 +8,7 @@ function CareerPreviousWork () {
             company: "Allied Motion",
             position: "Academic Internship",
             dates: "02/2021 - 09/2021",
-            img: "https://www.medicaldesignandoutsourcing.com/wp-content/uploads/2021/05/Allied-Motion-Technologies-300x195.jpg",
+            img: "https://promoltd.co.il/wp-content/uploads/elementor/thumbs/SMALL-LOGO-1-qao8fz1lcwfooxinbdjkgbcsoym4yc3gnmn0dfkhhk.png",
             skills: ["Python", "Mechanical Waves", "Spectrogram", "Fourier", "Matplotlib", "Numpy", "Scipy", "Scikit-learn", "Signal Capture", "Signal Processing"]
         },
         {
@@ -16,8 +16,8 @@ function CareerPreviousWork () {
             company: "INESC TEC",
             position: "Academic Internship (Thesis)",
             dates: "02/2023 - 10/2023",
-            img: "https://www.securitymagazine.pt/wp-content/uploads/2018/10/inesctec.png",
-            skills: ["Python", "Deep Learning", "Machine Learning", "Convolutional Neural Networks", "Machine Learning", "Image processing", "Data processing" ]
+            img: "https://avatars.githubusercontent.com/u/10416172?s=280&v=4",
+            skills: ["Python", "Deep Learning", "Machine Learning", "Convolutional Neural Networks", "Image processing", "Data processing" ]
         },
         {
             id: 3,
@@ -32,12 +32,12 @@ function CareerPreviousWork () {
             company: "El Corte Inglés",
             position: "Part-Time",
             dates: "11/2018 - 02/2020",
-            img: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Logo_Corte_Ingl%C3%A9s.svg/220px-Logo_Corte_Ingl%C3%A9s.svg.png",
+            img: "https://marcaporhombro.com/wp-content/uploads/2012/02/corte.jpg",
             skills: ["Team Work", "Personal Communication", "Sales Capability", "Time Management", "Resource Management"]
         }
     ]);
 
-    return <div className="education">
+    return <div className="previouswork">
         {previousWork.map((ed) => (
             <CareerCard
                 key={ed.id}

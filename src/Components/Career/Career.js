@@ -2,7 +2,8 @@ import React from "react";
 import MenuIcon from "../Home/MenuIcon";
 import CareerEducation from "./CareerEducation";
 import CareerPreviousWork from "./CareerPreviousWork";
-import Footer from "../Footer";
+import Footer from "../Footer/Footer";
+
 
 function Career () {
 
