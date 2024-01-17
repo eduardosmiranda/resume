@@ -223,14 +223,11 @@ body {
 
 .education {
     display: flex;
-    margin: 40px;
+    margin: 20px;
     justify-content: space-evenly;
     align-items: center;
     flex-wrap: wrap;
-}
-
-.educationDiv {
-    border: 2px solid black;
+    gap: 2.5rem;
 }
 
 
@@ -240,6 +237,7 @@ body {
     justify-content: space-evenly;
     align-items: center;
     flex-wrap: wrap;
+    gap: 2.5rem;
 }
 
 .educationH1{
@@ -251,7 +249,6 @@ body {
 
 .educationCard {
     margin-top: 20px;
-    margin-bottom: 30px;
     border-radius: 30px;
     height: 450px;
     
@@ -1008,7 +1005,7 @@ body {
     align-items: center;
     position: relative;
     z-index: 1;
-    border: 3px solid #f0f9fe;
+    border: 2px solid #f0f9fe;
     overflow: hidden;
 }
 

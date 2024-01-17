@@ -10,7 +10,7 @@ function CareerEducation () {
         course: "Ciências e Tecnologias",
         dates: "09/2015 - 06/2018",
         img: "https://0774a870d3.cbaul-cdnwnd.com/8d579289ce2be190aa6d3b4e0373ccd2/200001225-53bef55b29/escjosereg_1.jpg",
-        skills: ["Arithmetic", "English", "Microsoft Office", "Geometry"]
+        skills: ["Arithmetic", "English", "Literature", "Microsoft Office", "Geometry", "Biology", "Geology", "Physics", "Chemistry"]
     }, 
 
     {
