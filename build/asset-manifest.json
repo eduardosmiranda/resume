@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/resume/static/css/main.af6a8436.css",
+    "main.js": "/resume/static/js/main.3b069917.js",
+    "static/media/Gaming.jpg": "/resume/static/media/Gaming.7b21d16eae51969b2f99.jpg",
+    "static/media/certificado-udemy.jpg": "/resume/static/media/certificado-udemy.3cd1c9e2035d900ecb86.jpg",
+    "static/media/Space.jpg": "/resume/static/media/Space.0da5d7ffc34b981c3a4b.jpg",
+    "static/media/React.jpg": "/resume/static/media/React.65ca18b4e9841f85a691.jpg",
+    "static/media/Physics.jpg": "/resume/static/media/Physics.5f52c059877970716ca3.jpg",
+    "static/media/Python.jpg": "/resume/static/media/Python.2db3ddae3690be239b2c.jpg",
+    "static/media/Gym.jpg": "/resume/static/media/Gym.2dac41342ff7c98209a6.jpg",
+    "static/media/Responsive.jpg": "/resume/static/media/Responsive.da40d5f45fb1f5add838.jpg",
+    "static/media/Git.jpg": "/resume/static/media/Git.7e19ced30f7817541e65.jpg",
+    "static/media/Bootstrap.jpg": "/resume/static/media/Bootstrap.3fa946b621297cd902db.jpg",
+    "static/media/PostgreSQL.jpg": "/resume/static/media/PostgreSQL.1840ed8db24169a95af0.jpg",
+    "static/media/HTML.jpg": "/resume/static/media/HTML.ad2f8c706c77bbb800be.jpg",
+    "static/media/WebDevelopment.jpg": "/resume/static/media/WebDevelopment.ed886de34b593bb22271.jpg",
+    "static/media/JavaScript.jpg": "/resume/static/media/JavaScript.854d47751eb61d44ef81.jpg",
+    "static/media/portugal-flag-circular-17871.svg": "/resume/static/media/portugal-flag-circular-17871.195fc0812426d3bdcb18b947fada34b9.svg",
+    "static/media/1698160382462.jpg": "/resume/static/media/1698160382462.ece68f6dcce67b14d357.jpg",
+    "static/media/Node.jpg": "/resume/static/media/Node.4e97577b981eca678bfe.jpg",
+    "static/media/jQuery.jpg": "/resume/static/media/jQuery.4e57e42ed36ca1fe4999.jpg",
+    "static/media/CSS.jpg": "/resume/static/media/CSS.87f5b197963ce41cf34e.jpg",
+    "index.html": "/resume/index.html",
+    "static/media/pinLocation.svg": "/resume/static/media/pinLocation.e0e405db69ee99ea66cdce0de43a1726.svg",
+    "static/media/home.svg": "/resume/static/media/home.df9b9e8f8964c37c0e758e5242b70df4.svg",
+    "main.af6a8436.css.map": "/resume/static/css/main.af6a8436.css.map",
+    "main.3b069917.js.map": "/resume/static/js/main.3b069917.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.af6a8436.css",
+    "static/js/main.3b069917.js"
+  ]
+}
